@@ -1,0 +1,12 @@
+{"namespace": "demo.avro",
+ "type": "record",
+ "name": "Conference",
+ "fields": [
+     {"name": "name",       "type": "string"},
+     {"name": "date",       "type": "long"},
+     {"name": "location",   "type": "string"},
+     {"name": "speakers",   "type": {"type":"array","items":"string"}},
+     {"name": "participants", "type": {"type": "array", "items": "string"}},
+     {"name": "seatingArrangement", "type": {"type": "map", "values": "int"}}
+ ]
+}

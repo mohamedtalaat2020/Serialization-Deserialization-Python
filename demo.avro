@@ -1,0 +1,39 @@
+{
+  "type": "record",
+  "name": "Record",
+  "fields": [
+    {
+      "name": "namespace",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "fields",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "namespace": "Record",
+          "name": "fields",
+          "fields": [
+            {
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "name": "type",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

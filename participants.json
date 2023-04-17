@@ -1,0 +1,24 @@
+{
+{"name": "Virutal conference",
+               "date": 25612345,
+               "location":"New York",
+               "speakers":["Speaker1","Speaker2"],
+               "participants":["Participant1","Participant2","Participant3","Participant4","Participant5"],
+               "seatingArrangement":{"Participant1":1,
+                                     "Participant2":2,
+                                     "Participant3":3,
+                                     "Participant4":4,
+                                     "Participant5":5}
+               },
+{"name": "NTI",
+               "date": 25612345,
+               "location":"Tanta",
+               "speakers":["Speaker1","Speaker2"],
+               "participants":["Participant1","Participant2","Participant3","Participant4","Participant5"],
+               "seatingArrangement":{"Participant1":1,
+                                     "Participant2":2,
+                                     "Participant3":3,
+                                     "Participant4":4,
+                                     "Participant5":5}
+               }
+   }            
